@@ -6,7 +6,7 @@
             :name="member.name" 
             :nickname="member.nickname" 
             :content="member.content" 
-            :about="member.age">
+            :age="member.age">
             </profileCard>
 
         </div>

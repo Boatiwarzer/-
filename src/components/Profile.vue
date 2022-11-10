@@ -43,7 +43,7 @@ export default {
         },
         age: {
             type:String,
-            default:'xx'
+            default:'21'
         },
     },
     methods:{
