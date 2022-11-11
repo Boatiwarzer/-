@@ -1,7 +1,9 @@
 <template>
     <div class="fontlink">
-        <router-link to="/">Home</router-link>
-        <div class="block p-8 bg-slate-300 rounded-lg border border-red-200 shadow-md hover:bg-red-100 dark:bg-red-800 dark:border-red-700 dark:hover:bg-red-700r">
+
+        
+        <div class="block p-4 bg-slate-300  border-red-200 shadow-md hover:bg-red-100 dark:bg-red-800 dark:border-red-700 dark:hover:bg-red-700r">
+        <router-link to="/" class="bg-slate-400">Home</router-link>
             <div class="fontsmain">
                 <div class="container">
                     <div class="box">
@@ -38,7 +40,7 @@ export default{
 </script>
 <style>
 .fontlink{
-    @apply block text-center text-2xl text-pink-900 bg-rose-300 
+    @apply block text-right text-2xl text-pink-900;
 
 }
 .container{

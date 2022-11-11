@@ -1,7 +1,7 @@
 <template>
 
-    <div class="fontlink">
-        <router-link to="/">Home</router-link>
+    <div class="fontlinks">
+        <router-link to="/" class="bg-sky-300">Home</router-link>
         <slot></slot>
 
     </div>
@@ -12,8 +12,10 @@ export default{
 }
 </script>
 <style>
-.fontlink{
-    @apply text-center text-2xl text-pink-900 bg-rose-400 
+.fontlinks{
+    @apply p-2 text-right text-2xl text-pink-900 bg-rose-400 ;
+    background-repeat: no-repeat;
+    
 }
 
 </style>

@@ -1,5 +1,4 @@
 <template>
-    
     <div class="ml-4 inline-block p-8 max-w-md bg-rose-200 rounded-lg border border-red-200 shadow-md hover:bg-red-100 dark:bg-red-800 dark:border-red-700 dark:hover:bg-red-700r">
         <div class="fonts">
             <div class="imgsize" :style="getUrlImage(img)"></div>
